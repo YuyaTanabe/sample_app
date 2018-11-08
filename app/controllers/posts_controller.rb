@@ -13,6 +13,10 @@ class PostsController < ApplicationController
     	redirect_to '/top'
     end
 
+    def index
+    end
+
+
     private
 
     def post_params
